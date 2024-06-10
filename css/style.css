@@ -1,0 +1,385 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+hr.one{
+	border: none;
+	border-radius: 10px;
+	height: 4px;
+	background: rgba(239,24,54,1);
+	opacity: 100%;
+}
+
+hr.two{
+	border: none;
+	border-radius: 10px;
+	height: 2px;
+	background: rgba(62,62,62,1.00);
+	opacity: 100%;
+}
+
+
+
+hr.three{
+    border: 0;
+    border-bottom: 2px dashed #626262;
+    background: #626262;
+}
+
+.btn{
+	background-color: #1a1917 !important;
+}
+
+.btn:hover{
+	background-color: rgba(239,24,54,1) !important;
+}
+
+.form-button{
+	left: 50%;
+}
+
+/* Nav Bar & Banner */
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(138,138,138,0.7),rgba(138,138,138,0.7)), url(../img/banner2.png);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav img{
+	width: 200px;
+	padding: 20px, 0px;
+}
+
+.nav_links{
+	flex: 1;
+	text-align: right;
+}
+
+.nav_links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 12px;
+	position: relative;
+}
+
+.nav_links ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: 550;
+}
+
+.nav_links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #Ef1836;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+
+.nav_links ul li:hover::after{
+	width: 100%;
+}
+
+/* News */
+
+.news{
+	width: 80%;
+	margin: auto;
+	text-align: left;
+	padding: 80px 0px 80px 100px;
+}
+
+h1{
+	font-size: 36px;
+	font-weight: 800;
+}
+
+.card-title a{
+	text-align: left;
+	font-size: 20px;
+	font-weight: 550;
+	color: #000;
+	text-decoration: none;
+}
+
+.card-text a{
+	font-size: 17px;
+	text-align: left;
+	color: #3D3D3D;
+	text-decoration: none;
+}
+
+.armin-footer{
+	background: rgba(239,24,54,0.8);
+}
+
+/* Footer */
+.footer-image{
+	width: 300px;
+}
+
+.footer-header{
+	color: rgba(239,24,54,1);
+	font-size: 20px;
+}
+
+.footer-sm {
+	color: #FFFFFF;
+}
+
+.footer-sm a:hover{
+	color: rgba(239,24,54,1);
+}
+
+.footer-p a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.footer-p:hover{
+	color: rgba(239,24,54,1);
+}
+
+.media-icon{
+	color: #000000;
+}
+
+
+
+/* Our History */
+.navbar-colour{ 
+	background: #1a1917
+}
+
+.navbar-img{
+	width: 150px;
+	height: auto;
+}
+
+.carousel-img{
+	height: 700px;
+	width: auto;
+}
+
+.heritage{
+	margin: auto;
+	width: 80%;
+	text-align: left;
+	padding-top: 50px;
+}
+
+.heritage-carousel{
+	position: relative;
+	width: 90%;
+	left: 5%;
+	padding-top: 10px;
+	right: 5%;
+	padding-bottom: 50px;
+}
+
+.carousel-caption{
+	padding-left: 0px;
+	background: rgba(77,77,77,0.77);
+	border-radius: 15px;
+}
+
+.heritage-header a{
+	text-decoration: none;
+	line-height: 25px;
+	font-size: 28px;
+	color: #FFFFFF;
+}
+
+.heritage-header a:hover{
+	color: rgba(239,24,54,1);
+}
+
+.heritage-text{
+	font-size: 20px;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+.heritage-images{
+	border-radius: 10px;
+	width: 1280px;
+	height: auto;
+}
+
+/* Engines */
+.engines{
+	width: 80%;
+	margin: auto;
+	text-align: left;
+	padding: 80px 50px 80px 80px;
+}
+
+.engines-img{
+	margin-left: 0%;
+	width: 300px;
+}
+
+.engines-header a{
+	color: #000000;
+	font-weight: bolder;
+	text-decoration: none;
+	font-size: 28px;
+}
+
+.engines-text{
+	color: #000000;
+	font-weight: 400;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.engines-header a:hover{
+	color: rgba(239,24,54,1);
+	font-weight: bolder;
+	text-decoration: none;
+	font-size: 28px;
+}
+
+.engines-text-link a{
+	color: #000000;
+	font-weight: 300;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.engines-text-link a:hover{
+	color: rgba(239,24,54,1);
+	font-weight: 300;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+/* Our Teams */
+.teams-p {
+    color: #000000;
+    font-size: 22px;
+}
+
+.teams-column {
+    text-align: center;
+}
+
+.team-container {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.teams-img {
+    padding-top: 20px;
+    width: 400px;
+    height: auto;
+}
+
+.teams-p2 a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.teams-p2 a:hover {
+    color: rgba(239,24,54,1);
+}
+
+hr.teams {
+    margin-top: 10px; /* Adjust the space above the hr as needed */
+    border: none;
+    border-radius: 10px;
+    height: 2px;
+    background: rgba(62,62,62,1.00);
+    opacity: 100%;
+}
+
+/* Power Unit Articles */
+.pu-p{
+	padding: 20px 0px;
+	font-size: 16px;
+}
+
+.pu-sub{
+	padding: 20px 0px;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.pu-img{
+	width: 100%;
+	height: auto;
+	padding-bottom: 20px;
+}
+
+.pu-img2{
+	width: 100%;
+	height: auto;
+	padding: 20px 0px;
+}
+
+/* Drivers */
+.driver-img{
+	width: 100%;
+	height: auto;
+}
+
+figure{
+  border: 1px #cccccc solid;
+  margin: auto;
+}
+
+figcaption{
+  background-color: rgba(239,24,54,1);
+  color: #fff;
+  padding: 4px;
+}
+
+/* Forms */
+.forms{
+	padding-top: 80px;
+	margin: auto;
+	width: 25%;
+}
+
+.form-h{
+	text-align: center;
+}
+
+.form-p{
+	font-size: 12px;
+}
+
+.form-button{
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+.forms-sub a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #000;
+}
+
+.forms-sub a:hover{
+	text-decoration: none;
+	font-size: 18px;
+	color: rgba(239,24,54,1);
+}

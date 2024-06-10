@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)https://ezgif.com/webp-to-png/ezgif-2-fd6831dca484.webp -->
+<html lang="en" prefix="og: http://ogp.me/ns#"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./pu4_files/osd.js.download"></script><script type="text/javascript" async="" src="./pu4_files/publishertag.prebid.js.download"></script><script src="./pu4_files/bl-253656f-264ce7d6.js.download" type="text/javascript" defer=""></script><script src="./pu4_files/b-165eba0-62f26ca7.js.download" type="text/javascript" defer=""></script><script type="text/javascript"></script><script type="text/javascript" async="" src="./pu4_files/localstore.js.download"></script><meta name="viewport" content="width=device-width"><title>Online WebP to PNG converter - pu4.webp</title><meta name="description" content="Free online WebP to PNG / APNG converter. Upload your WebP file and click &quot;Convert to PNG&quot;. Then you can download or edit the produced PNG image. Animated WebP files will be converted to APNG."><meta name="keywords" content="webp to png,webp to apng,webp2apng"><meta property="fb:app_id" content="423445844398591"> 
+<meta property="og:title" content="Online WebP to PNG / APNG converter"><meta property="og:description" content="Free online WebP to PNG / APNG converter. Upload your WebP file and click &quot;Convert to PNG&quot;. Then you can download or edit the produced PNG image. Animated WebP files will be converted to APNG."><link rel="stylesheet" href="./pu4_files/e7.css"><link rel="apple-touch-icon-precomposed" href="https://ezgif.com/apple-touch-icon-precomposed.png"><link rel="shortcut icon" href="https://ezgif.com/favicon.ico" type="image/x-icon"><link rel="canonical" href="https://ezgif.com/webp-to-png"><link rel="dns-prefetch" href="https://s2.ezgif.com/">
+<script async="" src="./pu4_files/apstag.js.download"></script><script src="./pu4_files/rules-p-XD4Yb4bFmpVdn.js.download" async=""></script><script src="./pu4_files/quant.js.download" async="" type="text/javascript"></script><script async="" type="text/javascript" src="./pu4_files/cmp2.js.download"></script><script async="" src="./pu4_files/analytics.js.download"></script><script type="text/javascript" async="" src="./pu4_files/aax.js.download"></script><script async="" type="text/javascript" src="./pu4_files/choice.js.download"></script><script src="./pu4_files/quant.js.download" async="" type="text/javascript"></script><script src="./pu4_files/jquery.min.js.download"></script><script src="./pu4_files/jquery-ui.min.js.download"></script><script src="./pu4_files/e6.js.download"></script>
+<!-- Quantcast Tag --><script>var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-XD4Yb4bFmpVdn"
+});
+</script>
+<noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-XD4Yb4bFmpVdn.gif" border="0" height="1" width="1" alt="Quantcast"/></div></noscript><!-- End Quantcast tag -->
+
+<!-- Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) --><script async="true">(function() {
+ var host = window.location.hostname;
+ var element = document.createElement('script');
+ var firstScript = document.getElementsByTagName('script')[0];
+ var url = 'https://quantcast.mgr.consensu.org'
+ .concat('/choice/', 'XD4Yb4bFmpVdn', '/', host, '/choice.js')
+ var uspTries = 0;
+ var uspTriesLimit = 3;
+ element.async = true;
+ element.type = 'text/javascript';
+ element.src = url;
+
+ firstScript.parentNode.insertBefore(element, firstScript);
+
+ function makeStub() {
+ var TCF_LOCATOR_NAME = '__tcfapiLocator';
+ var queue = [];
+ var win = window;
+ var cmpFrame;
+
+ function addFrame() {
+ var doc = win.document;
+ var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+ if (!otherCMP) {
+ if (doc.body) {
+ var iframe = doc.createElement('iframe');
+
+ iframe.style.cssText = 'display:none';
+ iframe.name = TCF_LOCATOR_NAME;
+ doc.body.appendChild(iframe);
+ } else {
+ setTimeout(addFrame, 5);
+ }
+ }
+ return !otherCMP;
+ }
+
+ function tcfAPIHandler() {
+ var gdprApplies;
+ var args = arguments;
+
+ if (!args.length) {
+ return queue;
+ } else if (args[0] === 'setGdprApplies') {
+ if (
+ args.length > 3 &&
+ args[2] === 2 &&
+ typeof args[3] === 'boolean'
+ ) {
+ gdprApplies = args[3];
+ if (typeof args[2] === 'function') {
+ args[2]('set', true);
+ }
+ }
+ } else if (args[0] === 'ping') {
+ var retr = {
+ gdprApplies: gdprApplies,
+ cmpLoaded: false,
+ cmpStatus: 'stub'
+ };
+
+ if (typeof args[2] === 'function') {
+ args[2](retr);
+ }
+ } else {
+ queue.push(args);
+ }
+ }
+
+ function postMessageEventHandler(event) {
+ var msgIsString = typeof event.data === 'string';
+ var json = {};
+
+ try {
+ if (msgIsString) {
+ json = JSON.parse(event.data);
+ } else {
+ json = event.data;
+ }
+ } catch (ignore) {}
+
+ var payload = json.__tcfapiCall;
+
+ if (payload) {
+ window.__tcfapi(
+ payload.command,
+ payload.version,
+ function(retValue, success) {
+ var returnMsg = {
+  __tcfapiReturn: {
+ returnValue: retValue,
+ success: success,
+ callId: payload.callId
+  }
+ };
+ if (msgIsString) {
+  returnMsg = JSON.stringify(returnMsg);
+ }
+ event.source.postMessage(returnMsg, '*');
+ },
+ payload.parameter
+ );
+ }
+ }
+
+ while (win) {
+ try {
+ if (win.frames[TCF_LOCATOR_NAME]) {
+ cmpFrame = win;
+ break;
+ }
+ } catch (ignore) {}
+
+ if (win === window.top) {
+ break;
+ }
+ win = win.parent;
+ }
+ if (!cmpFrame) {
+ addFrame();
+ win.__tcfapi = tcfAPIHandler;
+ win.addEventListener('message', postMessageEventHandler, false);
+ }
+ };
+
+ makeStub();
+
+ var uspStubFunction = function() {
+ var arg = arguments;
+ if (typeof window.__uspapi !== uspStubFunction) {
+ setTimeout(function() {
+ if (typeof window.__uspapi !== 'undefined') {
+ window.__uspapi.apply(window.__uspapi, arg);
+ }
+ }, 500);
+ }
+ };
+
+ var checkIfUspIsReady = function() {
+ uspTries++;
+ if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+ console.warn('USP is not accessible');
+ } else {
+ clearInterval(uspInterval);
+ }
+ };
+
+ if (typeof window.__uspapi === 'undefined') {
+ window.__uspapi = uspStubFunction;
+ var uspInterval = setInterval(checkIfUspIsReady, 6000);
+ }
+})();
+</script><!-- End Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+<script src="./pu4_files/gpt.js.download" async=""></script><script> window.googletag = window.googletag || {cmd: []};
+ googletag.cmd.push (function () {
+ if(window.innerWidth > 1000) {
+ googletag.defineSlot('/147246189,21770999482/ezgif.com_728x90_desktop_top', [728, 90], 'ezgif.com_728x90_top_responsive').addService(googletag.pubads());
+ googletag.defineSlot('/147246189,21770999482/ezgif.com_728x90_desktop_middle', [728, 90], 'ezgif.com_728x90_middle_responsive').addService(googletag.pubads());
+ googletag.defineSlot('/147246189,21770999482/ezgif.com_1200x300_desktop_bottom', [970, 250], 'ezgif.com_1200x300_bottom_responsive').addService(googletag.pubads());
+ googletag.defineSlot('/147246189,21770999482/ezgif.com_300x600_1', [[300, 250], [300, 600]], 'ezgif.com_300x600_1').addService(googletag.pubads());
+ googletag.defineSlot('/147246189,21770999482/ezgif.com_300x600_2', [[300, 250], [300, 600]], 'ezgif.com_300x600_2').addService(googletag.pubads());
+ googletag.defineSlot('/147246189,21770999482/ezgif.com_300x600_3', [[300, 250], [300, 600]], 'ezgif.com_300x600_3').addService(googletag.pubads());
+ googletag.defineSlot('/147246189,21770999482/ezgif.com_300x600_4', [[300, 250], [300, 600]], 'ezgif.com_300x600_4').addService(googletag.pubads());
+ } else {
+ googletag.defineSlot('/147246189,21770999482/ezgif.com_336x320_mobile_top', [300, 250], 'ezgif.com_728x90_top_responsive').addService(googletag.pubads());
+ googletag.defineSlot('/147246189,21770999482/ezgif.com_336x320_mobile_middle', [300, 250], 'ezgif.com_728x90_middle_responsive').addService(googletag.pubads());
+ googletag.defineSlot('/147246189,21770999482/ezgif.com_336x320_mobile_bottom', [300, 250], 'ezgif.com_1200x300_bottom_responsive').addService(googletag.pubads());
+ }
+
+ googletag.pubads().enableSingleRequest();
+ googletag.pubads().disableInitialLoad();
+ googletag.enableServices();
+ });
+</script><script src="./pu4_files/ezgifcom.js.download" async=""></script><script type="text/javascript"> (function() {
+ window.aax = window.aax || {};
+ var aax = window.aax;
+ aax.initTime = new Date().getTime();
+ aax.pubId = "AAX5H4CNQ";
+ aax.ver = "1.2";
+ aax.hst = window.location.hostname;
+ var aaxEndpoint = "https://c.aaxads.com/aax.js?pub=" + aax.pubId + "&hst=" +
+ aax.hst + "&ver=" + aax.ver;
+
+ function loadScript(endpoint) {
+ var scriptTag = document.createElement("script"),
+ placeTag = document.getElementsByTagName("script")[0];
+ scriptTag.type = "text/javascript";
+ scriptTag.async = true;
+ scriptTag.src = endpoint;
+ placeTag.parentNode.insertBefore(scriptTag, placeTag);
+ }
+ loadScript(aaxEndpoint);
+})(); 
+</script><meta http-equiv="origin-trial" content="A+b/H0b8RPXNaJgaNFpO0YOFuGK6myDQXlwnJB3SwzvNMfcndat4DZYMrP4ClJIzYWo3/yP2S+8FTZ/lpqbPAAEAAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="A9ZgbRtm4pU3oZiuNzOsKcC8ppFSZdcjP2qYcdQrFKVzkmiWH1kdYY1Mi9x7G8+PS8HV9Ha9Cz0gaMdKsiVZIgMAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxL6oBxcpn5rQDPKSAs+d0oxNyJYq2/4esBUh3Yx5z8QfcLu+AU8iFCXYRcr/CEEfDnkxxLTsvXPJFQBxHfvkgMAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A9KPtG5kl3oLTk21xqynDPGQ5t18bSOpwt0w6kGa6dEWbuwjpffmdUpR3W+faZDubGT+KIk2do0BX2ca16x8qAcAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AookgM0K6zABiuRTZwpn+R95G2CKmUH/2+zf2kS/QpMlVZ6HTI6QekeLkrJyxeIi62p2ejcQTF464pkdlx0Nwg0AAABmeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJUcnVzdFRva2VucyIsImV4cGlyeSI6MTYzNDA4MzE5OSwiaXNTdWJkb21haW4iOnRydWV9"><meta http-equiv="origin-trial" content="A3HucHUo1oW9s+9kIKz8mLkbcmdaj5lxt3eiIMp1Nh49dkkBlg1Fhg4Fd/r0vL69mRRA36YutI9P/lJUfL8csQoAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A0OysezhLoCRYomumeYlubLurZTCmsjTb087OvtCy95jNM65cfEsbajrJnhaGwiTxhz38ZZbm+UhUwQuXfVPTg0AAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="AxoOxdZQmIoA1WeAPDixRAeWDdgs7ZtVFfH2y19ziTgD1iaHE5ZGz2UdSjubkWvob9C5PrjUfkWi4ZSLgWk3Xg8AAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A7+rMYR5onPnACrz+niKSeFdH3xw1IyHo2AZSHmxrofRk9w4HcQPMYcpBUKu6OQ6zsdxf4m/vqa6tG6Na4OLpAQAAAB4eyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AwfG8hAcHnPa/kJ1Co0EvG/K0F9l1s2JZGiDLt2mhC3QI5Fh4qmsmSwrWObZFbRC9ieDaSLU6lHRxhGUF/i9sgoAAACBeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AwQ7dCmHkvR6FuOFxAuNnktYSQrGbL4dF+eBkrwNLALc69Wr//PnO1yzns3pjUoCaYbKHtVcnng2hU+8OUm0PAYAAACHeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AysVDPGQTLD/Scn78x4mLwB1tMfje5jwUpAAzGRpWsr1NzoN7MTFhT3ClmImi2svDZA7V6nWGIV8YTPsSRTe0wYAAACHeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="./pu4_files/pubads_impl_2021062901.js.download" async=""></script><style type="text/css"> .qc-cmp-button.qc-cmp-secondary-button:hover {    background-color: #368bd6 !important;    border-color: transparent !important;  }  .qc-cmp-button.qc-cmp-secondary-button:hover {    color: #ffffff !important;  }  .qc-cmp-button.qc-cmp-secondary-button {    color: #368bd6 !important;  }  .qc-cmp-button.qc-cmp-secondary-button {    background-color: #eee !important;    border-color: transparent !important;  } </style><meta http-equiv="origin-trial" content="A4RpyXPHPXj2Tt0KMMrya+U6IibH8/6yFLknmyK5ZwpgUNYhhwGyllkLZNqKedteT7fKzxsI8p/Pbpbd4tEJOQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2NyaXRlby5uZXQ6NDQzIiwiZmVhdHVyZSI6IkludGVyZXN0Q29ob3J0QVBJIiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><link rel="preload" href="./pu4_files/f.txt" as="script"><script type="text/javascript" src="./pu4_files/f.txt"></script><link rel="preload" href="./pu4_files/f(1).txt" as="script"><script type="text/javascript" src="./pu4_files/f(1).txt"></script></head><body><div class="ww" id="wrapper"><div id="header"><a id="logo" href="https://ezgif.com/" title="Online animated GIF tools">ezGif.com <span>Animated GIFs Made Easy</span></a><div id="hdr"><div id="ezgif.com_728x90_top_responsive" data-google-query-id="CLCNz4iFzfECFcqJZgIdTRQPbA"><div id="google_ads_iframe_/147246189,21770999482/ezgif.com_728x90_desktop_top_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/147246189,21770999482/ezgif.com_728x90_desktop_top_0" title="3rd party ad content" name="google_ads_iframe_/147246189,21770999482/ezgif.com_728x90_desktop_top_0" width="88" height="31" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation-by-user-activation" style="border: 0px; vertical-align: bottom; width: 0px; height: 0px;" data-load-complete="true" data-google-container-id="1" src="./pu4_files/saved_resource.html"></iframe></div></div> </div><nav><ul id="menu"><li><a class="gifmaker" href="https://ezgif.com/maker" title="Make animated GIF from still frames or edit frame order and duration of existing GIF">GIF Maker</a></li><li><a class="video" href="https://ezgif.com/video-to-gif" title="Video to GIF converter">Video to GIF</a></li><li><a class="resize" href="https://ezgif.com/resize" title="Resize animated image">Resize</a></li><li><a class="reverse" href="https://ezgif.com/reverse" title="Reverse animated GIF">Reverse</a></li><li><a class="rotate" href="https://ezgif.com/rotate" title="Rotate animated GIFs and images">Rotate</a></li><li><a class="crop" href="https://ezgif.com/crop" title="Crop selection of image">Crop</a></li><li><a class="cut" href="https://ezgif.com/cut" title="Cut animation duration">Cut</a></li><li><a class="optimize" href="https://ezgif.com/optimize" title="Reduce animation size">Optimize</a></li><li><a class="effects" href="https://ezgif.com/effects" title="Add effects to images and animations">Effects</a></li><li><a class="split" href="https://ezgif.com/split" title="Split GIF image to frames">Split</a></li><li><a class="add-text" href="https://ezgif.com/add-text" title="Write text over GIF image">Add text</a></li><li class="active"><a class="webp" href="https://ezgif.com/webp-maker" title="Animated WebP maker and tools">WebP</a></li><li><a class="apng" href="https://ezgif.com/apng-maker" title="Animated PNG (APNG) maker and tools">APNG</a></li><li><a class="avif" href="https://ezgif.com/avif-maker" title="AVIF tools">AVIF</a></li></ul></nav><div class="c"></div></div><div id="submenu"><img src="./pu4_files/webp-logo.png" alt="WebP tools" title="Animated WebP tools" id="sub-logo" width="59" height="22"><ul><li><a href="https://ezgif.com/webp-maker">WebP maker</a></li><li><a href="https://ezgif.com/video-to-webp">Video to WebP</a></li><li><a href="https://ezgif.com/gif-to-webp">GIF to WebP</a></li><li><a href="https://ezgif.com/jpg-to-webp">JPG to WebP</a></li><li><a href="https://ezgif.com/png-to-webp">PNG to WebP</a></li><li><a href="https://ezgif.com/webp-to-gif">WebP to GIF</a></li><li><a href="https://ezgif.com/webp-to-jpg">WebP to JPG</a></li><li class="active"><a href="https://ezgif.com/webp-to-png">WebP to PNG</a></li><li><a href="https://ezgif.com/webp-to-mp4">WebP to MP4</a></li></ul></div>
+<div id="content" class="webp-to-png-content"><div id="sidebar"><div class="sky"><div id="ezgif.com_300x600_1" data-google-query-id="CL710oiFzfECFcqJZgIdTRQPbA"><div id="google_ads_iframe_/147246189,21770999482/ezgif.com_300x600_1_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/147246189,21770999482/ezgif.com_300x600_1_0" title="3rd party ad content" name="google_ads_iframe_/147246189,21770999482/ezgif.com_300x600_1_0" width="300" height="600" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation-by-user-activation" style="border: 0px; vertical-align: bottom;" data-google-container-id="4" src="./pu4_files/saved_resource(1).html"></iframe></div></div></div><br><div class="sky"><div id="ezgif.com_300x600_2" data-google-query-id="CL_10oiFzfECFcqJZgIdTRQPbA"><div id="google_ads_iframe_/147246189,21770999482/ezgif.com_300x600_2_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/147246189,21770999482/ezgif.com_300x600_2_0" title="3rd party ad content" name="google_ads_iframe_/147246189,21770999482/ezgif.com_300x600_2_0" width="300" height="600" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation-by-user-activation" style="border: 0px; vertical-align: bottom;" data-google-container-id="5" src="./pu4_files/saved_resource(2).html"></iframe></div></div></div></div><div id="main"><h1>Convert WebP to PNG / APNG</h1>
+
+<div><table class="file-menu"><tbody><tr><td><a href="https://ezgif.com/crop/ezgif-2-fd6831dca484.webp" title="Crop image" class="m-btn-crop"><span class="icon"><img src="./pu4_files/transform-crop-and-resize.png" alt="crop"></span>crop</a></td><td><a href="https://ezgif.com/resize/ezgif-2-fd6831dca484.webp" title="Resize image" class="m-btn-resize"><span class="icon"><img src="./pu4_files/transform-scale.png" alt="resize"></span>resize</a></td><td><a href="https://ezgif.com/rotate/ezgif-2-fd6831dca484.webp" title="Rotate image" class="m-btn-rotate"><span class="icon"><img src="./pu4_files/transform-rotate.png" alt="rotate"></span>rotate</a></td><td><a href="https://ezgif.com/optiwebp/ezgif-2-fd6831dca484.webp" title="Compress image" class="m-btn-optiwebp"><span class="icon"><img src="./pu4_files/run-build-clean.png" alt="optimize"></span>optimize</a></td><td><a href="https://ezgif.com/reverse/ezgif-2-fd6831dca484.webp" title="Reverse animation" class="m-btn-reverse"><span class="icon"><img src="./pu4_files/reverse.png" alt="reverse"></span>reverse</a></td><td><a href="https://ezgif.com/effects/ezgif-2-fd6831dca484.webp" title="Rotate, reverse, flip, add color filters..." class="m-btn-effects"><span class="icon"><img src="./pu4_files/tools-wizard.png" alt="effects"></span>effects</a></td><td><a href="https://ezgif.com/speed/ezgif-2-fd6831dca484.webp" title="Change animation speed" class="m-btn-speed"><span class="icon"><img src="./pu4_files/player-time.png" alt="speed"></span>speed</a></td><td><a href="https://ezgif.com/add-text/ezgif-2-fd6831dca484.webp" title="Add text over image" class="m-btn-add-text"><span class="icon"><img src="./pu4_files/insert-text.png" alt="write"></span>write</a></td><td><a href="https://ezgif.com/censor/ezgif-2-fd6831dca484.webp" title="Censor the image (pixelate or blur selected areas)" class="m-btn-censor"><span class="icon"><img src="./pu4_files/censor.png" alt="censor"></span>censor</a></td><td><a href="https://ezgif.com/overlay/ezgif-2-fd6831dca484.webp" title="Add watermark or logo" class="m-btn-overlay"><span class="icon"><img src="./pu4_files/insert-image.png" alt="overlay"></span>overlay</a></td><td><a href="https://ezgif.com/webp-to-jpg/ezgif-2-fd6831dca484.webp" title="Convert WebP to JPG" class="m-btn-webp-to-jpg"><span class="icon"><img src="./pu4_files/convert.png" alt="to JPG"></span>to JPG</a></td><td><a class="save" href="https://s2.ezgif.com/save/ezgif-2-fd6831dca484.webp" download=""><span class="icon"><img src="./pu4_files/document-save.png" alt="save"></span>save</a></td></tr></tbody></table></div>
+<script>(function(){var WebP=new Image();WebP.onload=WebP.onerror=function(){
+if(WebP.height!=2){var sc=document.createElement('script');sc.type='text/javascript';sc.async=true;
+var s=document.getElementsByTagName('script')[0];sc.src='/js/webpjs-0.0.2.min.js';s.parentNode.insertBefore(sc,s);}};
+WebP.src='data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';})();</script>
+<img src="./pu4_files/ezgif-2-fd6831dca484.webp" style="max-width:100%" id="target" alt="Image pu4.webp">
+<p class="filestats">File size: <strong>9.38KiB</strong>, width: 900px, height: 507px, frames: 1, type: webp <span class="convert-wrap">
+			<span class="convert-btn button" onclick="javascript:$(this).siblings(&#39;.convert-options&#39;).toggle();">convert <img src="./pu4_files/navigation-270-button-white.png" alt="" width="16" height="16"></span>
+			<span class="convert-options" style="display:none">
+				<a href="https://ezgif.com/webp-to-gif/ezgif-2-fd6831dca484.webp">to GIF</a><a href="https://ezgif.com/webp-to-mp4/ezgif-2-fd6831dca484.webp">to video</a><a href="https://ezgif.com/webp-to-png/ezgif-2-fd6831dca484.webp">to PNG</a><a href="https://ezgif.com/webp-to-jpg/ezgif-2-fd6831dca484.webp">to JPG</a><a href="https://ezgif.com/webp-to-mng/ezgif-2-fd6831dca484.webp">to MNG</a><a href="https://ezgif.com/webp-to-flif/ezgif-2-fd6831dca484.webp">to FLIF</a><a href="https://ezgif.com/webp-to-avif/ezgif-2-fd6831dca484.webp">to AVIF</a><a href="https://ezgif.com/gif-to-sprite/ezgif-2-fd6831dca484.webp">to sprite</a>
+			</span>
+		</span></p>
+
+<form class="form" action="https://ezgif.com/webp-to-png/ezgif-2-fd6831dca484.webp" method="POST"><input type="hidden" value="ezgif-2-fd6831dca484.webp" name="file"><input type="hidden" value="738325178fc84e" name="token">
+<p id="tool-submit-button"><input type="submit" class="button primary" value="Convert to PNG!" name="convert-to-png"></p>
+</form>
+
+
+<h2>Converted PNG image:</h2>
+<div id="output"><p class="outfile"><img src="./pu4_files/ezgif-2-bfd7c16308e4.png" style="width:900px;height:507px" alt="[webp-to-png output image]"></p><p class="filestats">File size: <strong>123.3KiB</strong> (<span style="color:red">+1214.35%</span>), width: 900px, height: 507px, type: png <span class="convert-wrap">
+			<span class="convert-btn button" onclick="javascript:$(this).siblings(&#39;.convert-options&#39;).toggle();">convert <img src="./pu4_files/navigation-270-button-white.png" alt="" width="16" height="16"></span>
+			<span class="convert-options" style="display:none">
+				<a href="https://ezgif.com/apng-to-gif/ezgif-2-bfd7c16308e4.png">to GIF</a><a href="https://ezgif.com/png-to-webp/ezgif-2-bfd7c16308e4.png">to WebP</a><a href="https://ezgif.com/png-to-jpg/ezgif-2-bfd7c16308e4.png">to JPG</a><a href="https://ezgif.com/apng-to-avif/ezgif-2-bfd7c16308e4.png">to AVIF</a>
+			</span>
+		</span></p><table class="file-menu"><tbody><tr><td><a href="https://ezgif.com/crop/ezgif-2-bfd7c16308e4.png" title="Crop image" class="m-btn-crop"><span class="icon"><img src="./pu4_files/transform-crop-and-resize.png" alt="crop"></span>crop</a></td><td><a href="https://ezgif.com/resize/ezgif-2-bfd7c16308e4.png" title="Resize image" class="m-btn-resize"><span class="icon"><img src="./pu4_files/transform-scale.png" alt="resize"></span>resize</a></td><td><a href="https://ezgif.com/rotate/ezgif-2-bfd7c16308e4.png" title="Rotate image" class="m-btn-rotate"><span class="icon"><img src="./pu4_files/transform-rotate.png" alt="rotate"></span>rotate</a></td><td><a href="https://ezgif.com/optipng/ezgif-2-bfd7c16308e4.png" title="Compress image" class="m-btn-optipng"><span class="icon"><img src="./pu4_files/run-build-clean.png" alt="optimize"></span>optimize</a></td><td><a href="https://ezgif.com/reverse/ezgif-2-bfd7c16308e4.png" title="Reverse animation" class="m-btn-reverse"><span class="icon"><img src="./pu4_files/reverse.png" alt="reverse"></span>reverse</a></td><td><a href="https://ezgif.com/effects/ezgif-2-bfd7c16308e4.png" title="Rotate, reverse, flip, add color filters..." class="m-btn-effects"><span class="icon"><img src="./pu4_files/tools-wizard.png" alt="effects"></span>effects</a></td><td><a href="https://ezgif.com/add-text/ezgif-2-bfd7c16308e4.png" title="Add text over image" class="m-btn-add-text"><span class="icon"><img src="./pu4_files/insert-text.png" alt="write"></span>write</a></td><td><a href="https://ezgif.com/censor/ezgif-2-bfd7c16308e4.png" title="Censor the image (pixelate or blur selected areas)" class="m-btn-censor"><span class="icon"><img src="./pu4_files/censor.png" alt="censor"></span>censor</a></td><td><a href="https://ezgif.com/overlay/ezgif-2-bfd7c16308e4.png" title="Add watermark or logo" class="m-btn-overlay"><span class="icon"><img src="./pu4_files/insert-image.png" alt="overlay"></span>overlay</a></td><td><a href="https://ezgif.com/png-to-jpg/ezgif-2-bfd7c16308e4.png" title="Convert PNG to JPG" class="m-btn-png-to-jpg"><span class="icon"><img src="./pu4_files/convert.png" alt="to JPG"></span>to JPG</a></td><td><a class="save" href="https://s2.ezgif.com/save/ezgif-2-bfd7c16308e4.png" download=""><span class="icon"><img src="./pu4_files/document-save.png" alt="save"></span>save</a></td></tr></tbody></table>
+<p style="font-size:90%">Please do not directly link this file, but save it when finished.<br>The image will soon be deleted from our servers.<br>You can host images at sites like <a href="https://imgur.com/" target="_blank" rel="nofollow noopener" class="extrnl">imgur.com</a></p>
+</div>
+<div class="txt"><h3>Online WebP to PNG / WebP to APNG converter</h3>
+<p> WebP is a relatively new image format with good compression and image quality, but is not yet supported by all web browsers and image viewers. If you have an image in WebP format and you want to convert it to PNG format, this tool is one of the simplest ways to do it.
+</p>
+<p>All you need to do is upload your WebP file and click "Convert". Then you can download or edit the produced PNG.
+</p>
+<p>Animated WebP files will be converted to APNG.
+</p>
+</div>
+</div><div class="c"></div> <div id="fa"><div id="ezgif.com_1200x300_bottom_responsive" style="margin: 0 auto;text-align:center;min-height:120px" data-google-query-id="CL310oiFzfECFcqJZgIdTRQPbA"><div id="google_ads_iframe_/147246189,21770999482/ezgif.com_1200x300_desktop_bottom_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/147246189,21770999482/ezgif.com_1200x300_desktop_bottom_0" title="3rd party ad content" name="google_ads_iframe_/147246189,21770999482/ezgif.com_1200x300_desktop_bottom_0" width="970" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation-by-user-activation" style="border: 0px; vertical-align: bottom; width: 970px; height: 250px;" data-google-container-id="3" data-load-complete="true" src="./pu4_files/saved_resource(3).html"></iframe></div></div> </div></div></div>
+<footer id="footer"><div class="ww"><div class="footer-menu-row"><ul><li><strong>Ezgif resources</strong></li><li><a href="https://ezgif.com/help">Help / FAQ</a></li><li><a href="https://ezgif.com/about">About and contacts</a></li><li><a href="https://ezgif.com/privacy">Privacy and Cookies</a></li><li><a href="https://ezgif.com/search">Search ezgif.com</a></li></ul></div><div class="footer-menu-row"><ul><li><strong>Video tools</strong></li><li><a href="https://ezgif.com/gif-to-mp4">GIF to MP4 converter</a></li><li><a href="https://ezgif.com/cut-video">Online video cutter</a></li><li><a href="https://ezgif.com/reverse-video">Video reverser</a></li><li><a href="https://ezgif.com/crop-video">Video crop tool</a></li><li><a href="https://ezgif.com/rotate-video">Video rotator</a></li></ul></div><div class="footer-menu-row"><ul><li><strong>Popular file converters</strong></li><li><a href="https://ezgif.com/pdf-to-gif" title="Convert PDF to GIF (animated or sequence)">PDF to GIF converter</a></li><li><a href="https://ezgif.com/png-to-jpg" title="Convert PNG images to JPG">PNG to JPG converter</a></li><li><a href="https://ezgif.com/webp-to-jpg" title="Convert WebP images to JPG">WebP to JPG converter</a></li><li><a href="https://ezgif.com/heic-to-jpg" title="Convert HEIC images to JPG">HEIC to JPG converter</a></li><li><a href="https://ezgif.com/avif-to-jpg" title="Online AVIF to JPG converter">AVIF to JPG converter</a></li></ul></div><div class="footer-menu-row last"><ul><li><strong>Other image tools</strong></li><li><a href="https://ezgif.com/image-to-datauri" title="Convert image files to DataURI code">Image to Data URI</a></li><li><a href="https://ezgif.com/barcode-generator" title="Generate barcode images from input text">Barcode generator</a></li><li><a href="https://ezgif.com/ani-to-gif" title="ANI to GIF converter">Cursor converter (.ani)</a></li><li><a href="https://ezgif.com/mng-maker" title="Animated MNG maker">MNG tools</a></li><li><a href="https://ezgif.com/flif-maker" title="Animated FLIF maker">FLIF tools</a></li></ul></div><div class="clear"></div></div></footer><iframe name="__tcfapiLocator" style="display: none;" src="./pu4_files/saved_resource(4).html"></iframe><script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ ga('create','UA-205489-8',{'sampleRate': 25});ga('set','anonymizeIp',true);ga('send','pageview');
+</script>
+<!-- s:2 --><img src="./pu4_files/pxusr.gif" style="display: none !important;"><img src="./pu4_files/pxext.gif" style="display: none !important;"><script id="optimera-ops" type="text/javascript" data-cid="65" src="./pu4_files/oPS.js.download"></script><script type="text/javascript" src="./pu4_files/op.js.download"></script><iframe src="./pu4_files/container.html" style="visibility: hidden; display: none;"></iframe><iframe src="./pu4_files/syncframe.html" id="criteo-syncframe" style="display: none;"></iframe><iframe src="./pu4_files/iu3.html" style="display: none;"></iframe><iframe id="google_osd_static_frame_9289248459780" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;" src="./pu4_files/saved_resource(5).html"></iframe><iframe src="./pu4_files/aframe.html" width="0" height="0" style="display: none;"></iframe></body><iframe sandbox="allow-scripts allow-same-origin" id="1672341006d361ba" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./pu4_files/usync.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="1689970f70387017" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./pu4_files/beacon.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="16951c6add7ee0f" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./pu4_files/ixmatch.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="170a7b20ade08688" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./pu4_files/pd.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="171fb57e81a4668" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./pu4_files/sspmatch-iframe.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="172b45e13d177beb" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./pu4_files/showad.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="173b6e2adf3d6e32" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./pu4_files/async_usersync.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="17439e35076bfde4" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./pu4_files/CookieSyncV.html">
+    </iframe></html>
